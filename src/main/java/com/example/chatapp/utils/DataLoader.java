@@ -1,7 +1,7 @@
-package com.example.chatapp.component;
+package com.example.chatapp.utils;
 
 
-import com.example.chatapp.model.User;
+import com.example.chatapp.entity.User;
 import com.example.chatapp.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,9 +21,9 @@ public class DataLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         if (initMode.equals("always")) {
-            userRepository.save(new User("Adam"));
-            userRepository.save(new User("Alan"));
-            userRepository.save(new User("John"));
+            userRepository.save(new User("Abdulkodir"));
+            userRepository.save(new User("Alex"));
+            userRepository.save(new User("Sasha"));
         }
     }
 }

@@ -1,8 +1,8 @@
 package com.example.chatapp.service;
 
 
-import com.example.chatapp.model.ChatRoom;
-import com.example.chatapp.model.Message;
+import com.example.chatapp.entity.ChatRoom;
+import com.example.chatapp.entity.Message;
 import com.example.chatapp.payload.MessageDto;
 import com.example.chatapp.projection.MessageProjection;
 import com.example.chatapp.repository.ChatRoomRepository;

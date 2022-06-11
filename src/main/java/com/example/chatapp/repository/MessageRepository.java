@@ -1,7 +1,7 @@
 package com.example.chatapp.repository;
 
 
-import com.example.chatapp.model.Message;
+import com.example.chatapp.entity.Message;
 import com.example.chatapp.projection.MessageProjection;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

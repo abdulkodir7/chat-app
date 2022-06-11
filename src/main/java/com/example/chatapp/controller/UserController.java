@@ -1,7 +1,7 @@
 package com.example.chatapp.controller;
 
 
-import com.example.chatapp.model.User;
+import com.example.chatapp.entity.User;
 import com.example.chatapp.payload.MessageDto;
 import com.example.chatapp.service.UserService;
 import lombok.RequiredArgsConstructor;
